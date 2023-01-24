@@ -1,14 +1,21 @@
-﻿.part1 {
+﻿* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+html {
+    scroll-behavior: smooth;
+}
+.part1 {
     background-image: url("Image1.png");
     height: 500px; /* You must set a specified height */
-
+    left:0;
+    top:0;
 
     background-position: center; /* Center the image */
 
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   
 }
 
 .heading {
@@ -105,5 +112,90 @@
     color: black;
 }
 
+#paragliding p, a {
+    display: flex;
+    justify-content: center;
+}
+#paragliding a {
+    text-decoration: none;
+    color: black;
+}
+
+#grid2 {
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: auto;
+    height: 400px;
+}
+#Girl
+{
+    margin-top:30px;
+    margin-bottom:20px;
+    margin-right:100px;
+    
+}
+#Girl a.img {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        
+        border-radius: 50%;
+ }
 
 
+
+#Para {
+    margin-top: 100px;
+    font-size:20px;
+    margin-right:150px;
+   
+}
+
+#grid3 {
+    
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    margin-left: 40px;
+}
+.Object1, .Object2, .Object3, .Object4 {
+    width: 300px;
+    background-color: lightgrey;
+}
+
+.Object1, .Object2, .Object3, .Object4  p{
+   text-align:center
+}
+#Popular {
+    background-color: lightgray;
+   
+}
+#popularpackages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    column-gap: 10px;
+   
+}
+#popularpackages1 {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    margin-left: 250px;
+    
+}
+#Client {
+    background-color: lightgray;
+    
+}
+#Review {
+    background-image: url("Last.jpg");
+    height: 200px; /* You must set a specified height */
+    
+    background-position: center; /* Center the image */
+
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    
+}
