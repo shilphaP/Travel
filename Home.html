@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
 
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <div class="part1">
+    <div class="part1" id="part1a">
         <nav class="heading">
-            <a class="sp1" href="#">Home</a>
-            <a class="sp2" href="#">About</a>
-            <a class="sp3" href="#">Shop</a>
-            <a class="sp4" href="#">Packages</a>
-            <a class="sp5" href="#">Reviews</a>
-            <a class="sp6" href="#">Blog</a>
+            <a class="sp1" href="#part1a">Home</a>
+            <a class="sp2" href="#text2a">About</a>
+            <a class="sp3" href="#text31">Free Products</a>
+            <a class="sp4" href="#Popular">Packages</a>
+            <a class="sp6" href="#Review">Contact us</a>
             <a class="sp7">
                 <img src="./Store.png" alt="Store" />
             </a>
@@ -38,36 +40,271 @@
             <button>Get Started</button>
         </div>
     </div>
-    
-   //----------------Tag2------------------/*
-    <div class="text2">
-          <h1>Adventure Idea!</h1>
-          <div class="grid1">
-              <div id="BungeeJump">
-                  <a class="a1"> <img src="./BungeeJump.jpg" alt="BungeeJump" style="width:300px;height:200px"/> </a>
-                  
-                      <p><b>BungeeJump</b></p>
-                      <a href="https://en.wikipedia.org/wiki/Bungee_jumping" target="_blank">Read More</a>
-                  
-                 
-              </div>
-              <div id="Scubba">
-                  <a class="a1"> <img src="./Scubba.jpg" alt="Scubba" style="width:300px;height:200px"/> </a>
-                  <p><b>Scubba Diving</b></p>
-                  <a href="https://en.wikipedia.org/wiki/Scuba_diving" target="_blank">Read More</a>
-              </div>
-              
-              <div id="riverrafting">
-                  <a class="a1"> <img src="./river rafting.jpg" alt="river rafting" style="width:300px;height:200px"/> </a>
-                  <p><b>River rafting</b></p>
-                  <a href="https://en.wikipedia.org/wiki/Rafting" target="_blank">Read More</a>
 
-              </div>
+    <br />
+    <div class="text2"id="text2a">
+        <h1>Adventure Idea!</h1>
+        <div class="grid1">
+            <div id="BungeeJump">
+                <a class="roundimages"> <img src="./BungeeJump.jpg" alt="BungeeJump" style="width: 200px; height: 200px; border-radius: 90%; " /> </a>
+
+                <p><b>BungeeJump</b></p>
+                <a href="https://en.wikipedia.org/wiki/Bungee_jumping" target="_blank">Read More</a>
 
 
+            </div>
+            <div id="Scubba">
+                <a class="roundimages"> <img src="./Scubba.jpg" alt="Scubba" style="width: 200px; height: 200px; border-radius: 90%; " /> </a>
+                <p><b>Scubba Diving</b></p>
+                <a href="https://en.wikipedia.org/wiki/Scuba_diving" target="_blank">Read More</a>
+            </div>
 
-             
-          </div>
+            <div id="riverrafting">
+                <a class="roundimages"> <img src="./river rafting.jpg" alt="river rafting" style="width: 200px; height: 200px; border-radius: 90%; " /> </a>
+                <p><b>River rafting</b></p>
+                <a href="https://en.wikipedia.org/wiki/Rafting" target="_blank">Read More</a>
+
+            </div>
+            <div id="paragliding">
+                <a class="roundimages"> <img src="./paragliding.jpg" alt="paragliding" style="width: 200px; height: 200px; border-radius: 90%; " /> </a>
+                <p><b>Paragliding</b></p>
+                <a href="https://en.wikipedia.org/wiki/Rafting" target="_blank">Read More</a>
+
+            </div>
+
+
+        </div>
+        <br />
+        <br />
+
+        <div class="text3">
+            <div id="grid2">
+                <div id="Girl">
+                    <a> <img src="./Girl.jpg" alt="Girl" style="width:500px;height:350px" class="girl1" /> </a>
+                </div>
+
+                <div id="Para">
+                    <h2 style="color:Green">Memorable outdoor experiences</h2>
+                    <p>Adventure isn’t all about rowing oceans or climbing mountains. Adventure in its purest form is simply a way of thinking. Live by that philosophy and you’ll make more of the short time we’ve been given on this rock</p>
+                </div>
+
+
+            </div>
+
+            <br />
+
+            <div class="text3" id="text31">
+
+                <h3 style="text-align:center">Featured products We Offer</h3>
+                <br />
+                <div id="grid3">
+
+                    <div class="card" style="width: 200px;height:250px; background-color: lightgrey">
+                        <img class="card-img-top" src="Shoes.png" alt="Shoes" style="width: 70%;height:50%; margin-left: 40px;margin-top:50px;">
+                        <div class="card-body">
+                            <h4 class="card-title" style="text-align:center">Shoes</h4>
+                        </div>
+                    </div>
+                    <div class="Travelbags" style="width: 200px; height: 250px; background-color: lightgrey">
+                        <img class="card-img-top" src="Travelbags.png" alt="Travelbags" style="width: 70%; height: 50%; margin-left: 40px; margin-top: 50px; ">
+                        <div class="card-body">
+                            <h4 class="card-title" style="text-align:center">Travelbags</h4>
+                        </div>
+                    </div>
+                    <div class="Knife" style="width: 200px; height: 250px; background-color: lightgrey">
+                        <img class="card-img-top" src="Shoes.png" alt="Knife" style="width: 70%; height: 50%; margin-left: 40px; margin-top: 50px; ">
+                        <div class="card-body">
+                            <h4 class="card-title" style="text-align:center">Knife</h4>
+                        </div>
+                    </div>
+                    <div class="colors" style="width: 200px; height: 250px; background-color: lightgrey">
+                        <img class="card-img-top" src="colors.png" alt="colors" style="width: 70%; height: 50%; margin-left: 40px; margin-top: 50px ">
+                        <div class="card-body">
+                            <h4 class="card-title" style="text-align:center">Glasses</h4>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+                <!--
+            <div id="grid3">
+                <div class="Object1">
+                    <a> <img src="./Travelbags.png" alt="Travelbags" style="width:200px;height:200px" /> </a>
+                    <p><b>Survival Kits</b></p>
+                    <p>$5.00</p>
+
+                </div>
+                <div class="Object2">
+                    <a> <img src="./Knife.png" alt="Knife" style="width:200px;height:200px" /> </a>
+                    <p><b>Knife rope</b></p>
+                    <p>$2.00</p>
+                </div>
+                <div class="Object3">
+                    <a> <img src="./colors.png" alt="colors" style="width:200px;height:200px" /> </a>
+                    <p><b>Glasses</b></p>
+                    <p>$3.00</p>
+                </div>
+                <div class="Object4">
+                    <a> <img src="./Shoes.png" alt="Shoes" style="width:200px;height:200px" /> </a>
+                    <p><b>Shoes</b></p>
+                    <p>$9.00</p>
+                </div>
+
+
+             </div>
+        -->
+
+            </div>
+
+            <br />
+            <h3 style="text-align:center">Popular packages</h3>
+            <br />
+            <div id="Popular">
+                <br />
+                <div id="popularpackages">
+
+
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="Package1.jpg" alt="Package1" style="width: 100%; height: 70%">
+                        <div class="card-body" style="text-align:center">
+                            <h4 class="card-title">Couple Tour Package</h4>
+                            <p class="card-text" style="color:green">$250-$490</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="Package2.jpg" alt="Package2" style="width: 100%; height: 70%">
+                        <div class="card-body" style="text-align:center">
+                            <h4 class="card-title">Girls Out Tour Package</h4>
+                            <p class="card-text" style="color:green">$150-$200</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="Package3.jpg" alt="Package3" style="width: 100%; height: 70%">
+                        <div class="card-body" style="text-align:center">
+                            <h4 class="card-title">Family Tour Package</h4>
+                            <p class="card-text" style="color:green">$300-$350</p>
+                        </div>
+                    </div>
+
+                </div>
+                <br />
+                <div id="popularpackages1">
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="Package4.jpg" alt="Package4" style="width:100%;height:70%">
+                        <div class="card-body" style="text-align:center">
+                            <h4 class="card-title">All in 1 Package</h4>
+                            <p class="card-text" style="color:green">$300-$350</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="Package5.jpg" alt="Package5" style="width: 100%; height: 70%">
+                        <div class="card-body" style="text-align:center">
+                            <h4 class="card-title">Friends Tour Package</h4>
+                            <p class="card-text" style="color:green">$300-$350</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="Review">
+                <div class="Review">
+
+                    <!-- Footer -->
+                    <footer class="text-center text-lg-start bg-light text-muted">
+                        <!-- Section: Social media -->
+                        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                            <!-- Left -->
+                            <div class="me-5 d-none d-lg-block">
+                                <span>Get connected with us:</span>
+                            </div>
+                            <!-- Left -->
+                            <!-- Right -->
+                            <div>
+                                <a href="" class="me-4 text-reset">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="" class="me-4 text-reset">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="" class="me-4 text-reset">
+                                    <i class="fab fa-google"></i>
+                                </a>
+                                <a href="" class="me-4 text-reset">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="" class="me-4 text-reset">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="" class="me-4 text-reset">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                            <!-- Right -->
+                        </section>
+                        <!-- Section: Social media -->
+                        <!-- Section: Links  -->
+                        <section class="">
+                            <div class="container text-center text-md-start mt-5">
+                                <!-- Grid row -->
+                                <div class="row mt-3">
+                                    <!-- Grid column -->
+                                    
+                                    <!-- Grid column -->
+                                    <!-- Grid column -->
+                                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                                        <!-- Links -->
+                                        <h6 class="text-uppercase fw-bold mb-4">
+                                            Useful links
+                                        </h6>
+                                    
+                                        <p>
+                                            <a href="#part1a" class="text-reset">Home</a>
+                                        </p>
+                                        <p>
+                                            <a href="#text2a" class="text-reset">About</a>
+                                        </p>
+                                        <p>
+                                            <a href="#text31" class="text-reset">Free Products</a>
+                                        </p>
+                                        <p>
+                                            <a href="#Popular" class="text-reset">Packages</a>
+                                        </p>
+                                    </div>
+                                    <!-- Grid column -->
+                                    <!-- Grid column -->
+                                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                        <!-- Links -->
+                                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                                        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                                        <p>
+                                            <i class="fas fa-envelope me-3"></i>
+                                            infotravel@example.com
+                                        </p>
+                                        <p><i class="fas fa-phone me-3"></i> + 9952284826</p>
+                                    </div>
+                                    <!-- Grid column -->
+                                </div>
+                                <!-- Grid row -->
+                            </div>
+                        </section>
+                        <!-- Section: Links  -->
+                        <!-- Copyright -->
+                        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                            © 2023 Copyright:
+                            <a class="text-reset fw-bold" href="https://cdn.com/">CDN.com</a>
+                        </div>
+                        <!-- Copyright -->
+                    </footer>
+                    <!-- Footer -->
+                </div>
+
+            </div>
+        </div>
 
     </div>
 
