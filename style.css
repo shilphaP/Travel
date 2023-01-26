@@ -4,6 +4,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 .part1 {
     background-image: url("Image1.png");
     height: 500px; /* You must set a specified height */
@@ -43,6 +44,7 @@ html {
 .heading a:hover {
    
     color: red;
+    font-size:x-large;
    
 }
 
@@ -198,4 +200,42 @@ html {
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
     
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .part1 {
+        background-image: url("Image1.png");
+        height: 400px; /* You must set a specified height */
+        width:445px;
+        left: 0;
+        top: 0;
+        background-position: center; /* Center the image */
+
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+    .text1 {
+        margin-left: 50%;
+        margin-top: -10%;
+        font-size: x-small;
+    }
+
+    .grid1 {
+        display: grid;
+        grid-template-columns:5% 5%;
+    }
+    #grid2 {
+       
+        display: flex;
+        flex-direction:row;
+        justify-content:space-around;
+        
+    }
+
+    
+
 }

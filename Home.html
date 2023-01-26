@@ -3,15 +3,22 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Travel Site</title>
-    
-    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="TravelLogoI.jpg" type="image/icon type" />
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="myscripts.js"></script>
+
 </head>
-<body>
+<body onload=getLocation()>
+   
     <div class="part1" id="part1a">
         <nav class="heading">
             <a class="sp1" href="#part1a">Home</a>
@@ -19,15 +26,10 @@
             <a class="sp3" href="#text31">Free Products</a>
             <a class="sp4" href="#Popular">Packages</a>
             <a class="sp6" href="#Review">Contact us</a>
-            <a class="sp7">
-                <img src="./Store.png" alt="Store" />
-            </a>
-            <a class="sp8">
-                <img src="./Search.png" alt="Search" />
-            </a>
+
 
         </nav>
-
+       
         <img class="image" src="./TravelLogo.png" alt="TravelLogo" />
 
         <div class="text1">
@@ -37,12 +39,14 @@
             <p>
                 If I’d learnt one thing from traveling, it was that the way to get things done was to go ahead and do them.Don’t talk about going to Borneo. Book a ticket, get a visa, pack a bag, and it just happens
             </p>
-            <button>Get Started</button>
+
+
+
         </div>
     </div>
 
     <br />
-    <div class="text2"id="text2a">
+    <div class="text2" id="text2a">
         <h1>Adventure Idea!</h1>
         <div class="grid1">
             <div id="BungeeJump">
@@ -112,7 +116,7 @@
                         </div>
                     </div>
                     <div class="Knife" style="width: 200px; height: 250px; background-color: lightgrey">
-                        <img class="card-img-top" src="Shoes.png" alt="Knife" style="width: 70%; height: 50%; margin-left: 40px; margin-top: 50px; ">
+                        <img class="card-img-top" src="Knife.png" alt="Knife" style="width: 70%; height: 50%; margin-left: 40px; margin-top: 50px; ">
                         <div class="card-body">
                             <h4 class="card-title" style="text-align:center">Knife</h4>
                         </div>
@@ -129,33 +133,6 @@
 
                 </div>
 
-                <!--
-            <div id="grid3">
-                <div class="Object1">
-                    <a> <img src="./Travelbags.png" alt="Travelbags" style="width:200px;height:200px" /> </a>
-                    <p><b>Survival Kits</b></p>
-                    <p>$5.00</p>
-
-                </div>
-                <div class="Object2">
-                    <a> <img src="./Knife.png" alt="Knife" style="width:200px;height:200px" /> </a>
-                    <p><b>Knife rope</b></p>
-                    <p>$2.00</p>
-                </div>
-                <div class="Object3">
-                    <a> <img src="./colors.png" alt="colors" style="width:200px;height:200px" /> </a>
-                    <p><b>Glasses</b></p>
-                    <p>$3.00</p>
-                </div>
-                <div class="Object4">
-                    <a> <img src="./Shoes.png" alt="Shoes" style="width:200px;height:200px" /> </a>
-                    <p><b>Shoes</b></p>
-                    <p>$9.00</p>
-                </div>
-
-
-             </div>
-        -->
 
             </div>
 
@@ -178,7 +155,7 @@
                         <img class="card-img-top" src="Package2.jpg" alt="Package2" style="width: 100%; height: 70%">
                         <div class="card-body" style="text-align:center">
                             <h4 class="card-title">Girls Out Tour Package</h4>
-                            <p class="card-text" style="color:green">$150-$200</p>
+                            <p class="card-text" style="color:green"><b>$150-$200</b></p>
                         </div>
                     </div>
 
@@ -210,58 +187,32 @@
                     </div>
                 </div>
             </div>
-            
+
             <div id="Review">
                 <div class="Review">
 
-                    <!-- Footer -->
                     <footer class="text-center text-lg-start bg-light text-muted">
-                        <!-- Section: Social media -->
+
+                       
                         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-                            <!-- Left -->
+
                             <div class="me-5 d-none d-lg-block">
                                 <span>Get connected with us:</span>
                             </div>
-                            <!-- Left -->
-                            <!-- Right -->
-                            <div>
-                                <a href="" class="me-4 text-reset">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="" class="me-4 text-reset">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="" class="me-4 text-reset">
-                                    <i class="fab fa-google"></i>
-                                </a>
-                                <a href="" class="me-4 text-reset">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                                <a href="" class="me-4 text-reset">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                                <a href="" class="me-4 text-reset">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                            <!-- Right -->
+
                         </section>
-                        <!-- Section: Social media -->
-                        <!-- Section: Links  -->
+
                         <section class="">
                             <div class="container text-center text-md-start mt-5">
-                                <!-- Grid row -->
+
                                 <div class="row mt-3">
-                                    <!-- Grid column -->
-                                    
-                                    <!-- Grid column -->
-                                    <!-- Grid column -->
+
                                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                                         <!-- Links -->
                                         <h6 class="text-uppercase fw-bold mb-4">
                                             Useful links
                                         </h6>
-                                    
+
                                         <p>
                                             <a href="#part1a" class="text-reset">Home</a>
                                         </p>
@@ -275,17 +226,16 @@
                                             <a href="#Popular" class="text-reset">Packages</a>
                                         </p>
                                     </div>
-                                    <!-- Grid column -->
-                                    <!-- Grid column -->
+
                                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                                         <!-- Links -->
                                         <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                                        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                                        <p><i class="fas fa-home me-3"></i> Chennai,600018, IN</p>
                                         <p>
                                             <i class="fas fa-envelope me-3"></i>
                                             infotravel@example.com
                                         </p>
-                                        <p><i class="fas fa-phone me-3"></i> + 9952284826</p>
+                                        <p><i class="fas fa-phone me-3"></i> + 919952284826</p>
                                     </div>
                                     <!-- Grid column -->
                                 </div>
