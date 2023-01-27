@@ -80,7 +80,9 @@ html {
     text-align:center
 }
 
-
+#TravelLogo {
+    transform: rotate(45deg);
+}
 .grid1 {
     
     display: grid;

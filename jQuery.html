@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery Change Image Source on Click</title>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+   
+</head>
+<body>
+    <script>
+        $(document).ready(function () {
+            $("#image").click(function () {
+                // Change src attribute of image
+                $("#image").attr("src", "Last.jpg");
+            });
+        });
+    </script>
+    <img id="image" src="Girl.jpg" alt="Girl">
+
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-b0c6637c-5689-44b2-bb22-096e6c8c6a5f"></div>
+
+</body>
+</html>
